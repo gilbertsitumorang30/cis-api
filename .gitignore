@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment & secrets (JANGAN di-commit)
+.env
+.env.*
+!.env.example
+
+# Uploaded media (data runtime)
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Plan / dokumentasi internal (tidak untuk di-push)
+plan/
+plans/
+*.plan.md
+issue.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test / coverage
+coverage/
